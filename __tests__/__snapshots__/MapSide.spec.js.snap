@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MapBox tests Should Render correctly 1`] = `
+<div
+  className="map-side side-1"
+>
+  <div
+    className="front map8"
+  />
+  <div
+    className="back"
+  />
+</div>
+`;

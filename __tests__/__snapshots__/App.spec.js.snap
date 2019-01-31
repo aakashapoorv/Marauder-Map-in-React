@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App tests Should Render correctly 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="main-content"
+    onClick={[Function]}
+  >
+    <div
+      className="map-base"
+    >
+      <div
+        className="footsteps footsteps-1"
+      >
+        <div
+          className="footstep left"
+        />
+        <div
+          className="footstep right"
+        />
+        <div
+          className="scroll-name"
+        >
+          <p>
+            Severus Snape
+          </p>
+        </div>
+      </div>
+      <div
+        className="footsteps footsteps-2"
+      >
+        <div
+          className="footstep left"
+        />
+        <div
+          className="footstep right"
+        />
+        <div
+          className="scroll-name"
+        >
+          <p>
+            Harry Potter
+          </p>
+        </div>
+      </div>
+      <div
+        className="map-flap flap---1"
+      >
+        <div
+          className="map-flap__front"
+        />
+        <div
+          className="map-flap__back"
+        />
+      </div>
+      <div
+        className="map-flap flap---2"
+      >
+        <div
+          className="map-flap__front"
+        />
+        <div
+          className="map-flap__back"
+        />
+      </div>
+      <div
+        className="map-side side-1"
+      >
+        <div
+          className="front map8"
+        />
+        <div
+          className="back"
+        />
+      </div>
+      <div
+        className="map-side side-2"
+      >
+        <div
+          className="front map18"
+        />
+        <div
+          className="back"
+        />
+      </div>
+      <div
+        className="map-side side-3"
+      >
+        <div
+          className="front map7"
+        />
+        <div
+          className="back"
+        />
+      </div>
+      <div
+        className="map-side side-4"
+      >
+        <div
+          className="front map10"
+        />
+      </div>
+      <div
+        className="map-side side-4"
+      >
+        <div
+          className="front map10"
+        />
+      </div>
+      <div
+        className="map-side side-5"
+      >
+        <div
+          className="front map6"
+        />
+        <div
+          className="back"
+        />
+      </div>
+      <div
+        className="map-side side-6"
+      >
+        <div
+          className="front map11"
+        />
+        <div
+          className="back"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

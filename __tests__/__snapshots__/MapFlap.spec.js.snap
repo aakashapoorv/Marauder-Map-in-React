@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MapFlap tests Should Render correctly 1`] = `
+<div
+  className="map-flap flap---1"
+>
+  <div
+    className="map-flap__front"
+  />
+  <div
+    className="map-flap__back"
+  />
+</div>
+`;

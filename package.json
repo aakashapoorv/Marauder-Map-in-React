@@ -8,7 +8,14 @@
     "prop-types": "15.6.2",
     "react": "16.5.2",
     "react-dom": "16.5.2",
-    "react-scripts": "2.0.3"
+    "react-scripts": "2.0.3",
+    "enzyme": "3.3.0",
+    "enzyme-adapter-react-16": "1.1.1",
+    "enzyme-to-json": "3.3.3",
+    "jest": "22.4.3",
+    "jest-enzyme": "6.0.0",
+    "jest-mock": "^22.4.3",
+    "react-test-renderer": "16.3.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -16,6 +23,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "jest": {
+    "testRegex": "/__tests__/.*[sS]pec.js$",
+    "testPathIgnorePatterns": ["/node_modules/", "/spec", "/__snapshots__"]
   },
   "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
 }

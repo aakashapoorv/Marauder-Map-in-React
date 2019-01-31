@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FootSteps tests Should Render correctly 1`] = `
+<div
+  className="footsteps footsteps-2"
+>
+  <div
+    className="footstep left"
+  />
+  <div
+    className="footstep right"
+  />
+  <div
+    className="scroll-name"
+  >
+    <p>
+      Harry Potter
+    </p>
+  </div>
+</div>
+`;
