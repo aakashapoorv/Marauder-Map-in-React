@@ -61,7 +61,7 @@ footer a .icons {
   width: 306px;
   height: 600px;
   margin: auto;
-  background: url("img/9.png") center center/cover;
+  background: url("https://rawcdn.githack.com/aakashapoorv/Marauder-Map-in-React/38904ba2bd14605682c10e56bd306597fb334c22/public/img/9.png") center center/cover;
   position: relative;
   display: inline-block;
 }
@@ -91,20 +91,20 @@ footer a .icons {
   box-shadow: 0 -1px 6px rgba(97, 83, 73, 0.5);
 }
 .map-flap.flap--1 .map-flap__front {
-  background: url("img/mini-1.png") center left/cover;
+  background: url("https://rawcdn.githack.com/aakashapoorv/Marauder-Map-in-React/38904ba2bd14605682c10e56bd306597fb334c22/public/img/mini-1.png") center left/cover;
 }
 .map-flap.flap--1 .map-flap__back {
-  background: url("img/mini-3.png") -3px 0 / cover;
+  background: url("https://rawcdn.githack.com/aakashapoorv/Marauder-Map-in-React/38904ba2bd14605682c10e56bd306597fb334c22/public/img/mini-3.png") -3px 0 / cover;
 }
 .map-flap.flap--2 {
   box-shadow: 0 1px 6px rgba(97, 83, 73, 0.5);
   top: 50%;
 }
 .map-flap.flap--2 .map-flap__front {
-  background: url("img/mini-2.png") center left/cover;
+  background: url("https://rawcdn.githack.com/aakashapoorv/Marauder-Map-in-React/38904ba2bd14605682c10e56bd306597fb334c22/public/img/mini-2.png") center left/cover;
 }
 .map-flap.flap--2 .map-flap__back {
-  background: url("img/mini-4.png") -3px 0 / cover;
+  background: url("https://rawcdn.githack.com/aakashapoorv/Marauder-Map-in-React/38904ba2bd14605682c10e56bd306597fb334c22/public/img/mini-4.png") -3px 0 / cover;
 }
 
 .map-side {
@@ -126,7 +126,7 @@ footer a .icons {
   backface-visibility: hidden;
 }
 .map-side .back {
-  background-image: url(img/back.png);
+  background-image: url(https://rawcdn.githack.com/aakashapoorv/Marauder-Map-in-React/38904ba2bd14605682c10e56bd306597fb334c22/public/img/back.png);
 }
 
 .map-side {
@@ -158,7 +158,7 @@ footer a .icons {
   left: 0;
 }
 .map-side.side-5 .back {
-  background-image: url(img/1.png);
+  background-image: url(https://rawcdn.githack.com/aakashapoorv/Marauder-Map-in-React/38904ba2bd14605682c10e56bd306597fb334c22/public/img/1.png);
 }
 .map-side.side-6 {
   left: 50%;
@@ -167,7 +167,7 @@ footer a .icons {
   background-size: 99.5%;
 }
 .map-side.side-6 .back {
-  background-image: url(img/17.png);
+  background-image: url(https://rawcdn.githack.com/aakashapoorv/Marauder-Map-in-React/38904ba2bd14605682c10e56bd306597fb334c22/public/img/17.png);
 }
 
 .scroll-name {
@@ -178,7 +178,7 @@ footer a .icons {
   height: 30px;
   font: 15px Satisfy, cursive;
   text-align: center;
-  background: url("img/scroll.svg") center center/cover;
+  background: url("https://rawcdn.githack.com/aakashapoorv/Marauder-Map-in-React/38904ba2bd14605682c10e56bd306597fb334c22/public/img/scroll.svg") center center/cover;
   z-index: 10;
   color: #615349;
   cursor: default;
@@ -365,22 +365,22 @@ footer a .icons {
 }
 
 .map8 {
-  --image: url("img/8.png");
+  --image: url("https://rawcdn.githack.com/aakashapoorv/Marauder-Map-in-React/38904ba2bd14605682c10e56bd306597fb334c22/public/img/8.png");
 }
 .map18 {
-  --image: url("img/18.png");
+  --image: url("https://rawcdn.githack.com/aakashapoorv/Marauder-Map-in-React/38904ba2bd14605682c10e56bd306597fb334c22/public/img/18.png");
 }
 .map7 {
-  --image: url("img/7.png");
+  --image: url("https://rawcdn.githack.com/aakashapoorv/Marauder-Map-in-React/38904ba2bd14605682c10e56bd306597fb334c22/public/img/7.png");
 }
 .map10 {
-  --image: url("img/10.png");
+  --image: url("https://rawcdn.githack.com/aakashapoorv/Marauder-Map-in-React/38904ba2bd14605682c10e56bd306597fb334c22/public/img/10.png");
 }
 .map6 {
-  --image: url("img/6.png");
+  --image: url("https://rawcdn.githack.com/aakashapoorv/Marauder-Map-in-React/38904ba2bd14605682c10e56bd306597fb334c22/public/img/6.png");
 }
 .map11 {
-  --image: url("img/11.png");
+  --image: url("https://rawcdn.githack.com/aakashapoorv/Marauder-Map-in-React/38904ba2bd14605682c10e56bd306597fb334c22/public/img/11.png");
 }
 
 @keyframes footsteps-1 {
