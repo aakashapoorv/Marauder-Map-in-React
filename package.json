@@ -5,17 +5,9 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
-    "@babel/core": "^7.0.0",
-    "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "23.6.0",
-    "babel-plugin-syntax-class-properties": "6.13.0",
-    "babel-plugin-transform-class-properties": "6.24.1",
-    "babel-preset-jest": "24.0.0",
     "enzyme": "3.3.0",
     "enzyme-adapter-react-16": "1.1.1",
     "enzyme-to-json": "3.3.3",
-    "esm": "3.2.0",
-    "jest": "23.6.0",
     "jest-enzyme": "6.0.0",
     "jest-mock": "^22.4.3",
     "prop-types": "15.6.2",
@@ -24,7 +16,15 @@
     "react-scripts": "2.0.3",
     "react-test-renderer": "16.3.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "23.6.0",
+    "babel-plugin-syntax-class-properties": "6.13.0",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-preset-jest": "24.0.0",
+    "jest": "23.6.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -33,7 +33,7 @@
   },
   "jest": {
     "transform": {
-      "\\.m?js$": "esm"
+      "^.+\\.js?$": "babel-jest"
     },
     "testRegex": "/__tests__/.*[sS]pec.js$",
     "testPathIgnorePatterns": ["/node_modules/", "/spec", "/__snapshots__"]
