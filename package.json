@@ -31,7 +31,9 @@
     "eject": "react-scripts eject"
   },
   "jest": {
-    "scriptPreprocessor": "./node_modules/babel-jest",
+    "transform": {
+      "\\.m?js$": "esm"
+    },
     "testRegex": "/__tests__/.*[sS]pec.js$",
     "testPathIgnorePatterns": ["/node_modules/", "/spec", "/__snapshots__"]
   },
