@@ -1,6 +1,11 @@
-pipeline:
-  build:
-    commands:
-    - npm install
-    - npm test-- --coverage
-  image: "node:10"
+---
+kind: pipeline
+name: default
+
+steps:
+- name: frontend
+  image: node
+  commands:
+  - npm install
+  - npm test -- --coverage
+  
