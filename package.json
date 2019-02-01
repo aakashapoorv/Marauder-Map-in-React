@@ -11,7 +11,8 @@
     "react": "16.5.2",
     "react-dom": "16.5.2",
     "react-scripts": "2.0.3",
-    "react-test-renderer": "16.3.0"
+    "react-test-renderer": "16.3.0",
+    "enzyme-adapter-react-16": "1.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
@@ -51,11 +52,20 @@
       "^.+\\.js?$": "babel-jest"
     },
     "testRegex": "/__tests__/.*[sS]pec.js$",
-    "testPathIgnorePatterns": ["/node_modules/", "/spec", "/__snapshots__"],
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/spec",
+      "/__snapshots__"
+    ],
     "moduleNameMapper": {
       "^.+\\.css$": "identity-obj-proxy",
       "^.+\\.(ico|jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/src/__mocks__/fileMock.js"
     }
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
