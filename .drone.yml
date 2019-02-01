@@ -1,0 +1,6 @@
+pipeline:
+  build:
+    commands:
+    - npm install
+    - npm test-- --coverage
+  image: "node:10"
