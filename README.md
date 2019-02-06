@@ -10,6 +10,9 @@ https://aakashapoorv.github.io/Marauder-Map-in-React/
 Codesandbox Link
 https://codesandbox.io/s/23863692p
 
+Deploy via ZEIT Now
+https://marauders-map-in-react-gckmqdl57.now.sh/
+
 Unit test using jest, enzime
 
 Run test
