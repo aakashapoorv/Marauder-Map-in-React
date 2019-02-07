@@ -18,6 +18,8 @@ Unit test using jest, enzime
 Run test
 `npm run test`
 
+Add now from `https://github.com/apps/now`
+
 Credits:-
 
 `https://www.deviantart.com/littlefallingstar/art/The-Marauders-Map-389921556`
