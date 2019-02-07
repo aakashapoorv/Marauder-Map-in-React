@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "keywords": [],
-  "homepage": "https://aakashapoorv.github.io/Marauder-Map-in-React/",
+  "homepage": "./",
   "main": "src/index.js",
   "dependencies": {
     "enzyme-adapter-react-16": "1.1.1",
@@ -44,7 +44,8 @@
     "test": "NODE_ENV=test jest",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "now-build": "react-scripts build && mv build dist"
   },
   "jest": {
     "transform": {
