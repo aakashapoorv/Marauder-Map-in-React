@@ -4,6 +4,10 @@ CircleCI: [![CircleCI](https://circleci.com/gh/aakashapoorv/Marauder-Map-in-Reac
 
 DroneCI [![Build Status](https://cloud.drone.io/api/badges/aakashapoorv/Marauder-Map-in-React/status.svg)](https://cloud.drone.io/aakashapoorv/Marauder-Map-in-React) (Coverage)
 
+[![BCH compliance](https://bettercodehub.com/edge/badge/aakashapoorv/Marauder-Map-in-React?branch=master)](https://bettercodehub.com/)
+
+GitHub Link `https://github.com/aakashapoorv/Marauder-Map-in-React`
+
 Deploy via TravisCI
 https://aakashapoorv.github.io/Marauder-Map-in-React/
 
@@ -17,6 +21,8 @@ Unit test using jest, enzime
 
 Run test
 `npm run test`
+
+Add now from `https://github.com/apps/now`
 
 Credits:-
 
